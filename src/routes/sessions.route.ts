@@ -19,7 +19,6 @@ sessionsRouter.post('/', async (request, response) => {
 
     return response.json({ user, token });
 
-
 });
 
 export default sessionsRouter;
